@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.profile-container {
+    position: relative;
+    width: 1280px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-container .teammates-profile-cards {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(#3586ff, #3586ff 30%, #183b56 30%, #183b56);
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile-container .teammates-profile-cards .profile-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 100000;
+    border-radius: 20px;
+    overflow: hidden;
+    transform-origin: top;
+}
+
+.profile-container .teammates-profile-cards:hover .profile-image {
+    transform: translateY(30px) scale(0.40);
+}
+
+.profile-container .teammates-profile-cards .profile-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-container .teammates-profile-cards .teammates-contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+
+.profile-container .teammates-profile-cards:hover .teammates-contents {
+    transform: translateY(0);
+}
+
+.profile-container .teammates-profile-cards .teammates-contents .teammates-details h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Forum";
+}
+
+.profile-container .teammates-profile-cards .teammates-contents .teammates-details p {
+    font-size: 16px;
+    color: #5a7184;
+    font-family: "Forum";
+}
+
+.profile-container .teammates-profile-cards .teammates-contents .teammates-details p i {
+    color: #3586ff;
+    font-size: 20px;
+}
+
+
+.profile-container .teammates-profile-cards .teammates-contents .teammates-details h2 span {
+    font-size: 18px;
+    color: #3586ff;
+}
+
+.teammates-social-icons {
+    position: relative;
+}
+
+.teammates-social-icons li {
+    list-style: none;
+    margin: 4px;
+}
+
+.teammates-social-icons li a {
+    width: 40px;
+    height: 40px;
+    background: #294d69;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.teammates-social-icons li a:hover {
+    color: #3586ff;
+    transform: rotate(360deg);
+}
