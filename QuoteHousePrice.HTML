@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/126a3e3428.js" crossorigin="anonymous"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="QuoteHousePrice.css" />
+</head>
+
+<body>
+    <section id="BannerSection">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent m-3">
+            <div class="container">
+                <a class="navbar-brand" href="#BannerSection">
+                    <img src="https://i.ibb.co/yNp1kZv/quotehouse-high-resolution-logo-color-on-transparent-background.png" class="quote-house-logo" />
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active text-white" id="navItem1" href="#BannerSection">Home</a>
+                        <a class="nav-link text-white" href="#AlgorithmsSection" id="navItem2">Algorithms</a>
+                        <a class="nav-link text-white" href="#ModulesSection" id="navItem3">Modules</a>
+                        <a class="nav-link text-white" href="#DeveloperTeamSection" id="navItem4">Developed Team</a>
+                        <a class="nav-link text-white" href="#ContactUsSection" id="navItem5">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-row justify-content-center" id="banner-content">
+            <div class="d-flex flex-column justify-content-center text-center">
+                <h1 class="banner-tagline">Think Twice & Invest</h1>
+                <p class="banner-description">Estimate price of the house where you would love to live</p>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="banner-buttons rounded pl-3 pr-3 mr-3" onclick="window.location.href='#AlgorithmsSection';">Algorithms</button>
+                    <button class="banner-buttons rounded pl-3 pr-3 mr-3" onclick="window.location.href = 'https://estimatorform.ccbp.tech';">Estimator</button>
+                </div>
+            </div>
+        </div>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+    <div class="mt-5 mb-5" id="AlgorithmsSection">
+        <div class="text-center">
+            <h1 class="section-headings mt-3 mb-3">Algorithms</h1>
+        </div>
+        <div class="bg-white pt-5 pb-5" id="catboost-algorithm-section">
+            <div class="container">
+                <div class="row d-flex flex-row justify-content-center">
+                    <div class="col-12 col-md-5">
+                        <div class="text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqXeJy-Bz2T7eZZzUlpDwpUgDNsFXDktsvRWuF95TpZvZvWxDs5iWhmDXz1SrQ4rpfmWo&usqp=CAU" class="Catboost-algorithm-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                        <h1 class="Catboost-algorithm-heading">
+                            CatBoost Algorithm
+                        </h1>
+                        <p class="Catboost-algorithm-description">
+                            CatBoost is a high-performance open source library for machine learning (gradient boosting) on decision trees, its name coined from “Category” and “Boosting.”
+                            It was developed by Yandex (Russian Google ) in 2017. According to Yandex,
+                            CatBoost has been applied to a wide range of areas such as recommendation systems, search ranking, self-driving cars, forecasting, and virtual assistants.
+                        </p>
+                        <button class="get-access-button rounded" onclick="window.location.href = 'https://pypi.org/project/catboost/';">Get Access</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white" id="why-catboost-algorithm-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="why-catboost-section-heading m-0 pt-3 pb-3">Why CatBoost Algorithm?</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2022/04/Inference.jpg" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Fast and scalable GPU version
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                Train your model on a fast implementation of gradient-boosting algorithm
+                                                for GPU. Use a multi-card configuration for large datasets.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/63b413db0ce94f496fdfbe8d_62c858790e1ce4ff4b334415_HERO.jpeg" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Overfitting Detector
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                CatBoost has an overfitting detector that can stop training earlier than the training parameters dictate if overfitting occurs.
+                                                CatBoost implements overfitting detection using two strategies:Iter, IncToDec
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center  shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://i0.wp.com/dataaspirant.com/wp-content/uploads/2020/12/1-Cross-Validation.png?resize=596%2C358&ssl=1" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Cross-validation
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                CatBoost allows to perform cross-validation on the given dataset.
+                                                In cross-validation mode, the training data is split into folds of learning and evaluation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://icon-library.com/images/missing-photo-icon/missing-photo-icon-10.jpg" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Missing Value Support
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                CatBoost provides three inherent missing values strategies for processing missing values. “Forbidden”:Missing values are interpreted as an error as they are not supported,
+                                                “Min” , “Max”.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center  shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://www.artel.co/wp-content/uploads/2014/02/LR4-fig-1-Accurate-results-are-achieved-by-improving-both-precision-and-trueness.png" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Improved accuracy
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                Reduce overfitting when constructing your models with a novel gradient-boosting scheme.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://www.techprevue.com/wp-content/uploads/2018/02/quality-management-money-making-focus.jpg" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Great quality without parameter tuning
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                Reduce time spent on parameter tuning, because CatBoost provides great results with default parameters
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://developer-blogs.nvidia.com/wp-content/uploads/2023/02/xgboost-categorical-featured.png" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Categorical features support
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                Improve your training results with CatBoost that allows you to use non-numeric factors,
+                                                instead of having to pre-process your data or spend time and effort turning it to numbers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pt-3">
+                        <div class="why-catboost-section-features-card d-flex flex-column justify-content-center shadow p-3 mb-3">
+                            <div class="bg-white">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <img src="https://www.linkpicture.com/q/fast-price-prediction.webp" class="why-catboost-section-features-images w-auto p-3" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex flex-column justify-content-center">
+                                            <h1 class="why-catboost-section-features-names">
+                                                Fast prediction
+                                            </h1>
+                                            <p class="why-catboost-section-features-description">
+                                                Apply your trained model quickly and efficiently even to latency-critical tasks using CatBoost's model applier
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 mb-5" id="ModulesSection">
+        <div class="text-center">
+            <h1 class="section-headings mt-3 mb-3">Modules</h1>
+        </div>
+        <div class="bg-white pt-5 pb-5" id="VisualMetadataSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 order-1 order-md-2 d-flex flex-column justify-content-center">
+                        <div class="text-center">
+                            <img src="https://www.linkpicture.com/q/fotor_2023-2-1_12_12_53.jpg" class="modules-section-image shadow-lg rounded" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                        <h1 class="modules-section-heading mt-3">
+                            Visual Metadata Module
+                        </h1>
+                        <p class="modules-section-description">
+                            By analyzing different physical parameters like total area in Sqft, slab area in Sqft , building age in Years, floor numbers, No of BHK, No of bathrooms,
+                            house type, main door facing, type of furnish,availability of balcony, availability of parking and availability of dining room .
+                            By using this parameters we estimate price of the house.
+                        </p>
+                        <button class="get-access-button rounded" onclick="window.location.href = 'https://estimatorform.ccbp.tech';">Estimate</button>
+                        <div class="d-flex flex-row justify-content-center mt-3">
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-chart-area modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-bed modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-sharp fa-solid fa-kitchen-set modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-utensils modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-bath modules-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white pt-5 pb-5" id="AmenitiesLocatorSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 order-1 order-md-1 d-flex flex-column justify-content-center">
+                        <div class="text-center">
+                            <img src="https://media.istockphoto.com/id/482541798/de/vektor/stadt-karte-marker-mit-lage.jpg?b=1&s=612x612&w=0&k=20&c=lPSMi-HNXrBXKjKIwbKEjQrYjXNv8NNz2waTr9t6dcY=" class="modules-section-image rounded shadow-lg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-2 order-md-2 d-flex flex-column justify-content-center">
+                        <h1 class="modules-section-heading mt-3">
+                            Amenities Locator Module
+                        </h1>
+                        <p class="modules-section-description">
+                            Feature will access the location of the house by using Google Maps API and mark
+                            all the public amenities available nearer to house into 5 levels such as public amenities under
+                            500 meters as level 1, under 1000 meters as level 2, under 1500 meters comes as level 3, under 2000 meters as
+                            level 4, under 2500 meters as level 5. We are extending the feature by adding distance, direction from house to particular
+                            public amenity. The distance plays vital role for evaluating prices more accurately.
+                        </p>
+                        <button class="get-access-button rounded" onclick="window.location.href = 'https://amenitielocator.ccbp.tech';">Locate</button>
+                        <div class="d-flex flex-row justify-content-center mt-3">
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-map-location-dot modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-hospital modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-school modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-train modules-icon"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center modules-icon-container shadow-lg mr-3">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-bus modules-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="DeveloperTeamSection">
+        <div class="text-center">
+            <h1 class="section-headings mt-3 mb-5">Developed Team</h1>
+        </div>
+        <div class="container align-items-center">
+            <div class="row d-flex flex-row justify-content-start align-items-center mb-3">
+                <div class="col col-md-10 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-3">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="https://i.ibb.co/3kQHHdb/Priyanka.jpg" alt="Generic placeholder image" class="img-fluid" style="width: 175px;height:175px; border-radius: 15px;">
+                                </div>
+                                <div class="flex-grow-1 ml-3">
+                                    <div class="d-flex flex-row pt-1">
+                                        <h3 class="teammates-name">Priyanka Muddam</h3>
+                                        <p class="teammates-role ml-2 pt-1">{Team Lead}</p>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center rounded pt-2 pl-2 pr-2" style="background-color: #efefef;">
+                                        <div>
+                                            <h6 class="teammates-tag-heading mb-0">Module Developed</h6>
+                                            <ul class="list-inline teammates-skill-list">
+                                                <li class="list-inline-item">Amenities Locator Module</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6 class="teammates-tag-heading mb-0">Skills</h6>
+                                            <ul class="list-inline teammates-skill-list">
+                                                <li class="list-inline-item">HTML</li>
+                                                <li class="list-inline-item">CSS</li>
+                                                <li class="list-inline-item">C</li>
+                                                <li class="list-inline-item">Python</li>
+                                                <li class="list-inline-item">SQL</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container align-items-center">
+        <div class="row d-flex flex-row justify-content-end align-items-center mb-3">
+            <div class="col col-md-10 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-3">
+                        <div class="d-flex">
+                            <div>
+                                <img src="https://i.ibb.co/znmcG1n/Divya.jpg" alt="Generic placeholder image" class="img-fluid" style="width: 175px;height:175px; border-radius: 15px;">
+                            </div>
+                            <div class="flex-grow-1 ml-3">
+                                <div class="d-flex flex-row pt-1">
+                                    <h3 class="teammates-name">Divya Manoja Jeevakuntla</h3>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center rounded pt-2 pl-2 pr-2" style="background-color: #efefef;">
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Module Developed</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">Visual Metadata Module</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Skills</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">HTML</li>
+                                            <li class="list-inline-item">CSS</li>
+                                            <li class="list-inline-item">C</li>
+                                            <li class="list-inline-item">C++</li>
+                                            <li class="list-inline-item">Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container align-items-center">
+        <div class="row d-flex flex-row justify-content-start align-items-center mb-3">
+            <div class="col col-md-10 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-3">
+                        <div class="d-flex">
+                            <div >
+                                <img src="https://i.ibb.co/m4gwrcz/Whats-App-Image-2023-02-15-at-12-44-53.jpg" alt="Generic placeholder image" class="img-fluid" style="width: 175px;height:175px; border-radius: 15px;">
+                            </div>
+                            <div class="flex-grow-1 ml-3">
+                                <div class="d-flex flex-row pt-1">
+                                    <h3 class="teammates-name">Lavanya Singaraju</h3>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center rounded pt-2 pl-2 pr-2" style="background-color: #efefef;">
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Module Developed</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">Visual Metadata Module</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Skills</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">HTML</li>
+                                            <li class="list-inline-item">C</li>
+                                            <li class="list-inline-item">C++</li>
+                                            <li class="list-inline-item">Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container align-items-center">
+        <div class="row d-flex flex-row justify-content-end align-items-center mb-3">
+            <div class="col col-md-10 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-3">
+                        <div class="d-flex">
+                            <div>
+                                <img src="https://i.ibb.co/0Ynkg9p/SNR0471.jpg" alt="Generic placeholder image" class="img-fluid" style="width: 175px;height:175px; border-radius: 15px;">
+                            </div>
+                            <div class="flex-grow-1 ml-3">
+                                <div class="d-flex flex-row pt-1">
+                                    <h3 class="teammates-name">Tippu Shaik</h3>
+                                    <p class="teammates-role ml-2 pt-1">{Web Developer}</p>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center rounded pt-2 pl-2 pr-2" style="background-color: #efefef;">
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Module Developed</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">Amenities Locator Module</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Skills</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">HTML</li>
+                                            <li class="list-inline-item">CSS</li>
+                                            <li class="list-inline-item">Bootstrap</li>
+                                            <li class="list-inline-item">JavaScript</li>
+                                            <li class="list-inline-item">Python</li>
+                                            <li class="list-inline-item">SQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container align-items-center">
+        <div class="row d-flex flex-row justify-content-start align-items-center mb-3">
+            <div class="col col-md-10 col-lg-7 col-xl-6">
+                <div class="card" style="border-radius: 15px;">
+                    <div class="card-body p-3">
+                        <div class="d-flex">
+                            <div>
+                                <img src="https://i.ibb.co/yqkphDD/Remini20210705100453430.jpg" alt="Generic placeholder image" class="img-fluid" style="width: 175px;height:175px; border-radius: 15px;">
+                            </div>
+                            <div class="flex-grow-1 ml-3">
+                                <div class="d-flex flex-row pt-1">
+                                    <h3 class="teammates-name">Mahesh Kumar Durgasi</h3>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center rounded pt-2 pl-2 pr-2" style="background-color: #efefef;">
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Module Developed</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">Amenities Locator Module</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6 class="teammates-tag-heading mb-0">Skills</h6>
+                                        <ul class="list-inline teammates-skill-list">
+                                            <li class="list-inline-item">HTML</li>
+                                            <li class="list-inline-item">CSS</li>
+                                            <li class="list-inline-item">JavaScript</li>
+                                            <li class="list-inline-item">C</li>
+                                            <li class="list-inline-item">C++</li>
+                                            <li class="list-inline-item">SQL</li>
+                                            <li class="list-inline-item">Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ContactUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="section-headings mt-5 mb-5">Contact Us</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter Email" required="required" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One</option>
+                                <option value="Web-Service">Web-Service Issue</option>
+                                <option value="Prediction">Prediction Issue</option>
+                                <option value="Suggestions">Suggestions</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="d-flex flex-column">
+                            <div class="form-group">
+                                <label for="name">Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="5" cols="25" required="required" placeholder="Describe your Message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary" id="btnContactUs">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="fluid-container" id="FooterSection">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end align-items-end">
+                <div class="footer-body d-flex flex-column justify-content-center align-items-center text-center">
+                    <div class="waves">
+                        <div class="blue-wave" id="wave1"></div>
+                        <div class="blue-wave" id="wave2"></div>
+                        <div class="blue-wave" id="wave3"></div>
+                        <div class="blue-wave" id="wave4"></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#BannerSection">
+                            <img src="https://i.ibb.co/yNp1kZv/quotehouse-high-resolution-logo-color-on-transparent-background.png" class="quote-house-logo mt-3" />
+                        </a>
+                        <ul class="social-media-icons d-flex justify-content-center align-items-center" style="padding:0;">
+                            <li class="list-unstyled"><a onclick="window.location.href = 'https://github.com/Tippu81189';"><i class="fa-brands fa-github"></i></a></li>
+                            <li class="list-unstyled"><a onclick="window.location.href = 'https://www.linkedin.com/in/tippushaik81189';"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="list-unstyled"><a onclick="window.location.href = 'mailto: tippu81189@gmail.com;'"><i class="fa-solid fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="menu-items d-flex flex-column justify-content-center align-items-center" style="padding:0;">
+                            <li class="list-unstyled"><a href="#BannerSection">Home</a></li>
+                            <li class="list-unstyled"><a href="#AlgorithmsSection">Algorithms</a></li>
+                            <li class="list-unstyled"><a href="#ModulesSection">Modules</a></li>
+                            <li class="list-unstyled"><a href="#DeveloperTeamSection">Developed Team</a></li>
+                            <li class="list-unstyled"><a href="#ContactUsSection">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <p class="rights-reserved text-center mt-3 mb-3 medium">@2023 University College of Engineering Narasaraopet JNTUK | All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
